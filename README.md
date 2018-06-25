@@ -7,5 +7,6 @@ Running it:
 1. `npm start` to run the program. It just prints out human readable log.
 2. `npm run logs:errors` to view the human readable `warn`/`error` logs (omitting the `info` level)
 3. `npm run logs:raw` to view all the raw logs in JSON format.
+4. `npm run logs:delete` to delete the log file.
 
-Type `npm run` to see a list of scripts.
+Type `npm run` to see a list of scripts and what they do.
