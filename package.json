@@ -4,8 +4,15 @@
   "description": "A quick example of node-bunyan for logging.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main | ./node_modules/.bin/bunyan",
+    "logs:errors": "cat ./log/application.log | ./node_modules/.bin/bunyan -l warn",
+    "logs:raw": "cat ./log/application.log",
+    "logs:delete": "rm -i ./log/*.log"
   },
   "author": "J. Cohen <hostelmarketing@gmail.com> (https://github.com/j127)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.8.12"
+  }
 }
