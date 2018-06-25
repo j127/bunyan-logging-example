@@ -1,0 +1,11 @@
+{
+  "name": "@j127/bunyan-logging-example",
+  "version": "0.0.1",
+  "description": "A quick example of node-bunyan for logging.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "J. Cohen <hostelmarketing@gmail.com> (https://github.com/j127)",
+  "license": "MIT"
+}
